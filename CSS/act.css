@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://www.nickiswift.com/img/gallery/the-untold-truth-of-elizabeth-olsen/l-intro-1611166484.jpg');
+    background-size: cover;
+}
+
+.cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 30px;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .2);
+}
+
+.cont .circle {
+    width: 200px;
+    height: 200px;
+    background: url('https://www.nickiswift.com/img/gallery/the-untold-truth-of-elizabeth-olsen/l-intro-1611166484.jpg');
+    border-radius: 50%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    float: left;
+    shape-outside: circle();
+    margin: 60px 30px 30px 0;
+}
+
+.cont p {
+    text-align: justify;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.cont h1 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+}
