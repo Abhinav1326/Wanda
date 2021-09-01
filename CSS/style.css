@@ -298,3 +298,30 @@ nav ul li a:hover::after{
 .ft {
     background: #000;
 }
+
+@media (max-width: 996px) {
+	.marvel {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 17rem;
+		width: 45rem;
+	}
+}
+
+
+.close {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background: #fff;
+	visibility: hidden;
+}
+
+@media (max-width: 500px) {
+	.close {
+		visibility: visible;
+	}
+}
